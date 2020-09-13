@@ -11,7 +11,7 @@ public class MainRestController {
         return "Hello user";
     }
     
-     @GetMapping
+     @GetMapping("/test")
     public String hello2(){
         return "Hello user2";
     }
