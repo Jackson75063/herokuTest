@@ -10,6 +10,11 @@ public class MainRestController {
     public String hello(){
         return "Hello user";
     }
+    
+     @GetMapping
+    public String hello2(){
+        return "Hello user2";
+    }
 
 }
 
